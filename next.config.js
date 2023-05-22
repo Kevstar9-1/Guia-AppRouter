@@ -4,5 +4,12 @@ const nextConfig = {
     appDir: true,
   },
 }
+// next.config.js
+
+module.exports = {
+  images: {
+    domains: ['avatars.githubusercontent.com'],
+  },
+};
 
 module.exports = nextConfig
